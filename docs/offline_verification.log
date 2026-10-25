@@ -1,0 +1,157 @@
+Verified publication file hashes: 88
+syntax OK
+test_full_rotation_not_erased (__main__.AngleBoundaryTests) ... ok
+test_previous_capture (__main__.AngleBoundaryTests) ... ok
+test_real_motion_preserved (__main__.AngleBoundaryTests) ... ok
+test_stationary_across_pi (__main__.AngleBoundaryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.012s
+
+OK
+test_background_center_never_moves_xy (test_grasp_candidate.CandidateTests) ... ok
+test_base_transform_uses_capture_pose_and_existing_handeye (test_grasp_candidate.CandidateTests) ... ok
+test_clipped_object_fails (test_grasp_candidate.CandidateTests) ... ok
+test_exact_bbox_center_and_all_enclosed_depth_pixels (test_grasp_candidate.CandidateTests) ... ok
+test_missing_all_depth_fails_without_coordinates (test_grasp_candidate.CandidateTests) ... ok
+test_missing_center_never_moves_xy (test_grasp_candidate.CandidateTests) ... ok
+test_missing_region_in_one_frame_fails (test_grasp_candidate.CandidateTests) ... ok
+test_no_object_and_multiple_objects_fail (test_grasp_candidate.CandidateTests) ... ok
+test_partial_border_region_is_recorded_and_excluded (test_grasp_candidate.CandidateTests) ... ok
+test_profile_equivalence_and_mismatch (test_grasp_candidate.CandidateTests) ... ok
+test_region_includes_interior_not_only_boundary_or_center_roi (test_grasp_candidate.CandidateTests) ... ok
+test_rgb_does_not_merge_two_separated_objects (test_grasp_candidate.CandidateTests) ... ok
+test_rgb_groups_fragments_but_keeps_bbox_center (test_grasp_candidate.CandidateTests) ... ok
+test_single_frame_cannot_claim_stability (test_grasp_candidate.CandidateTests) ... ok
+test_temporal_instability_fails (test_grasp_candidate.CandidateTests) ... ok
+test_zeros_nonfinite_table_depth_excluded_from_full_region (test_grasp_candidate.CandidateTests) ... ok
+test_above_limit_pose_unchanged (test_pipeline.ReadOnlyTests) ... ok
+test_below_z_outputs_clamped_pose_and_real_point_error (test_pipeline.ReadOnlyTests) ... ok
+test_camera_point_known_rotation (test_pipeline.ReadOnlyTests) ... ok
+test_cannot_lower_limit (test_pipeline.ReadOnlyTests) ... ok
+test_checkerboard_image_detection (test_pipeline.ReadOnlyTests) ... ok
+test_compensation_plus_z (test_pipeline.ReadOnlyTests) ... ok
+test_compensation_rotated_grasp (test_pipeline.ReadOnlyTests) ... ok
+test_configured_higher_limit_is_applied (test_pipeline.ReadOnlyTests) ... ok
+test_default_top_surface_policy_uses_measured_point (test_pipeline.ReadOnlyTests) ... ok
+test_degenerate_no_rotation_rejected (test_pipeline.ReadOnlyTests) ... ok
+test_euler_wrap_and_gimbal (test_pipeline.ReadOnlyTests) ... ok
+test_exact_z_limit (test_pipeline.ReadOnlyTests) ... ok
+test_holdout_cannot_tune_solution (test_pipeline.ReadOnlyTests) ... ok
+test_invalid_depth_and_nan (test_pipeline.ReadOnlyTests) ... ok
+test_inverse_chain (test_pipeline.ReadOnlyTests) ... ok
+test_medical_mm_to_m (test_pipeline.ReadOnlyTests) ... ok
+test_missing_holdout_rejected (test_pipeline.ReadOnlyTests) ... ok
+test_mixed_profile_rejected (test_pipeline.ReadOnlyTests) ... ok
+test_no_motion_publishers_or_sockets (test_pipeline.ReadOnlyTests) ... ok
+test_official_fixed_xyz_example (test_pipeline.ReadOnlyTests) ... ok
+test_provisional_offset_blocks_motion_review (test_pipeline.ReadOnlyTests) ... ok
+test_real_bad_holdout_rejected (test_pipeline.ReadOnlyTests) ... ok
+test_requested_downward_orientation (test_pipeline.ReadOnlyTests) ... ok
+test_robotmove_layout_reused (test_pipeline.ReadOnlyTests) ... ok
+test_selected_grip_height_is_not_surface_height (test_pipeline.ReadOnlyTests) ... ok
+test_selected_height_low_flange_is_clamped (test_pipeline.ReadOnlyTests) ... ok
+test_solve_synthetic_and_holdout (test_pipeline.ReadOnlyTests) ... ok
+test_synthetic_not_accepted_for_real_target (test_pipeline.ReadOnlyTests) ... ok
+test_top_surface_grasp_preserves_measured_height (test_pipeline.ReadOnlyTests) ... ok
+test_top_surface_pipeline_requires_matching_point_semantics (test_pipeline.ReadOnlyTests) ... ok
+test_top_surface_policy_rejects_conflicting_height (test_pipeline.ReadOnlyTests) ... ok
+test_top_surface_still_obeys_flange_z_limit (test_pipeline.ReadOnlyTests) ... ok
+test_transform_reflection_rejected (test_pipeline.ReadOnlyTests) ... ok
+test_visible_surface_needs_height_confirmation (test_pipeline.ReadOnlyTests) ... ok
+test_bundled_math_keeps_verified_identity (test_portability.PortabilityTests) ... ok
+test_identity_ignores_location_but_rejects_other_math (test_portability.PortabilityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.575s
+
+OK
+test_duplicate_feedback_and_bad_arrays (test_motion.CompletionTests) ... ok
+test_fault_and_mode_changes_abort (test_motion.CompletionTests) ... ok
+test_intermediate_ready_does_not_complete_phase (test_motion.CompletionTests) ... ok
+test_pose_error_resets_stability (test_motion.CompletionTests) ... ok
+test_ready_without_running_never_completes (test_motion.CompletionTests) ... ok
+test_running_at_target_never_completes (test_motion.CompletionTests) ... ok
+test_running_ready_and_stable_pose_required (test_motion.CompletionTests) ... ok
+test_segment_timeout (test_motion.CompletionTests) ... ok
+test_stale_gap_and_late_frame_abort (test_motion.CompletionTests) ... ok
+test_descend_only_after_xy_reaches_target (test_motion.PlanTests) ... ok
+test_each_phase_has_only_one_endpoint (test_motion.PlanTests) ... ok
+test_general_rotation_and_gimbal_lock (test_motion.PlanTests) ... ok
+test_invalid_input_and_single_stage (test_motion.PlanTests) ... ok
+test_large_moves_do_not_create_small_steps (test_motion.PlanTests) ... ok
+test_no_motion_and_negative_z (test_motion.PlanTests) ... ok
+test_official_fixed_xyz_example (test_motion.PlanTests) ... ok
+test_order_and_axis_invariants (test_motion.PlanTests) ... ok
+test_shortest_rotation_across_pi (test_motion.PlanTests) ... ok
+test_skipped_phases_preserve_xy_before_z (test_motion.PlanTests) ... ok
+test_bad_udp_and_command (test_motion.WireTests) ... ok
+test_feedback_relay_only_forwards_feedback_bytes (test_motion.WireTests) ... ok
+test_official_json_exact_fields_and_shapes (test_motion.WireTests) ... ok
+test_offline_cli_and_execute_guard (test_motion.WireTests) ... ok
+test_udp_loopback_wire_roundtrip (test_motion.WireTests) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.459s
+
+OK
+test_invalid_poses (test_pick.ConfigTests) ... ok
+test_invalid_settings (test_pick.ConfigTests) ... ok
+test_named_pose_and_settings (test_pick.ConfigTests) ... ok
+test_offline_cli_needs_no_ros_or_gripper (test_pick.ConfigTests) ... ok
+test_requested_relative_config (test_pick.ConfigTests) ... ok
+test_unknown_name (test_pick.ConfigTests) ... ok
+test_close_failure_is_not_retried (test_pick.PickTests) ... ok
+test_close_only_after_motion_and_final_confirmation (test_pick.PickTests) ... ok
+test_lost_final_feedback_never_closes (test_pick.PickTests) ... ok
+test_missing_gripper_feedback_prevents_arm_motion (test_pick.PickTests) ... ok
+test_motion_failure_never_closes (test_pick.PickTests) ... ok
+test_preview_never_calls_gripper (test_pick.PickTests) ... ok
+test_relative_target_computed_once_from_current_feedback (test_pick.PickTests) ... ok
+test_wrong_final_position_or_orientation_never_closes (test_pick.PickTests) ... ok
+test_failed_response_sends_once (test_pick.ServiceTests) ... ok
+test_service_disappears_no_send (test_pick.ServiceTests) ... ok
+test_timeout_sends_once (test_pick.ServiceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.020s
+
+OK
+test_checksum_corruption (test_protocol.ProtocolTests) ... ok
+test_every_split_boundary (test_protocol.ProtocolTests) ... ok
+test_full_unsigned_32_bit_range (test_protocol.ProtocolTests) ... ok
+test_invalid_ids (test_protocol.ProtocolTests) ... ok
+test_invalid_motion_fields (test_protocol.ProtocolTests) ... ok
+test_manual_close (test_protocol.ProtocolTests) ... ok
+test_manual_feedback (test_protocol.ProtocolTests) ... ok
+test_manual_feedback_table_arithmetic (test_protocol.ProtocolTests) ... ok
+test_manual_open (test_protocol.ProtocolTests) ... ok
+test_manual_query (test_protocol.ProtocolTests) ... ok
+test_multiple_frames_and_noise (test_protocol.ProtocolTests) ... ok
+test_noise_does_not_accumulate (test_protocol.ProtocolTests) ... ok
+test_quick_start (test_protocol.ProtocolTests) ... ok
+test_units_and_rounding (test_protocol.ProtocolTests) ... ok
+test_wire_limits (test_protocol.ProtocolTests) ... ok
+test_wrong_id_and_invalid_flag (test_protocol.ProtocolTests) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.014s
+
+OK
+test_bad_configuration (test_client.ClientTests) ... ok
+test_configured_limits_reject_before_write (test_client.ClientTests) ... ok
+test_connect_sends_no_motion (test_client.ClientTests) ... ok
+test_disconnected_move_not_queued (test_client.ClientTests) ... ok
+test_dry_run_never_opens_serial (test_client.ClientTests) ... ok
+test_moves_are_one_shot (test_client.ClientTests) ... ok
+test_query_fragmented_feedback_and_stale_input (test_client.ClientTests) ... ok
+test_read_error_disconnects (test_client.ClientTests) ... ok
+test_short_write_disconnects_without_replay (test_client.ClientTests) ... ok
+test_shutdown_does_not_send_undocumented_stop (test_client.ClientTests) ... ok
+test_timeout_does_not_resend_motion_or_disconnect (test_client.ClientTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.018s
+
+OK
+Site log summary is optional and requires private local records (not published).

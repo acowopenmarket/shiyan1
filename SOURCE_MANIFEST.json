@@ -1,0 +1,648 @@
+{
+  "export_date": "2026-10-25",
+  "copied_files": [
+    {
+      "path": "camera/configs/__init__.py",
+      "source_sha256": "2609506ac4e75b6707ce66d7c8be951d31fdd964102ed8555ace7d0bfc6a3fae",
+      "export_sha256": "2609506ac4e75b6707ce66d7c8be951d31fdd964102ed8555ace7d0bfc6a3fae",
+      "export_bytes": 487,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/configs/calibration.example.json",
+      "source_sha256": "d8a05a438bc9a4d523a474e8d18ab7a07b4fadd4769fa53dcc674cb43fda027b",
+      "export_sha256": "d8a05a438bc9a4d523a474e8d18ab7a07b4fadd4769fa53dcc674cb43fda027b",
+      "export_bytes": 3519,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/configs/grasp_down.example.json",
+      "source_sha256": "307faf7ae0ecacbb3155535d67d5d26a7cc4c1bb41ac0fa673c36b0cf12d4504",
+      "export_sha256": "307faf7ae0ecacbb3155535d67d5d26a7cc4c1bb41ac0fa673c36b0cf12d4504",
+      "export_bytes": 752,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/configs/handeye.json",
+      "source_sha256": "226f33b2e17760b971f971d5af6c8587537adc738ae3f5ece4ba55eaf07411bb",
+      "export_sha256": "226f33b2e17760b971f971d5af6c8587537adc738ae3f5ece4ba55eaf07411bb",
+      "export_bytes": 1033,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_bytes": 0,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/estun_math.py",
+      "source_sha256": "8864fb7ee72c3b37826aeb6f57cde2e91eb5c9c2aad018f0bb83a69cf5412f8e",
+      "export_sha256": "8864fb7ee72c3b37826aeb6f57cde2e91eb5c9c2aad018f0bb83a69cf5412f8e",
+      "export_bytes": 3171,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/geometry.py",
+      "source_sha256": "7e978c25c7c557efe8bf8543152de8a52cf8abd189685101188345c24cc58f85",
+      "export_sha256": "7e978c25c7c557efe8bf8543152de8a52cf8abd189685101188345c24cc58f85",
+      "export_bytes": 9493,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/math_provenance.json",
+      "source_sha256": "e85a0d223cfd4b45aa9eddb27f4b17f465533bc4fa14173a8361b763a07597cf",
+      "export_sha256": "e85a0d223cfd4b45aa9eddb27f4b17f465533bc4fa14173a8361b763a07597cf",
+      "export_bytes": 641,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/pose_ranges.py",
+      "source_sha256": "2dc60302cb2db06eaa4a19ddf76a0399a3e02e6c7ae373a0f5beead8267c8896",
+      "export_sha256": "2dc60302cb2db06eaa4a19ddf76a0399a3e02e6c7ae373a0f5beead8267c8896",
+      "export_bytes": 489,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/README.md",
+      "source_sha256": "680a68214fcec7297e9eaf2a3d6d37f6d5f117a013530742002fb23d6d4ddb54",
+      "export_sha256": "680a68214fcec7297e9eaf2a3d6d37f6d5f117a013530742002fb23d6d4ddb54",
+      "export_bytes": 859,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/recorded_check.py",
+      "source_sha256": "aaf4ce3b93b83e2722dcf0879476a5c3fdbb01818eec0855d68fa9752d91735c",
+      "export_sha256": "aaf4ce3b93b83e2722dcf0879476a5c3fdbb01818eec0855d68fa9752d91735c",
+      "export_bytes": 2888,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/coordinate_transform/target.py",
+      "source_sha256": "2f46b3f98ef87e4a6f0799ddccf77537faf3fe36f656b2724df2443467d67857",
+      "export_sha256": "2f46b3f98ef87e4a6f0799ddccf77537faf3fe36f656b2724df2443467d67857",
+      "export_bytes": 4177,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/handeye_calibration/__init__.py",
+      "source_sha256": "85557d70dff7daafd86330c1a0eb24bca644902d6dd3222a13d31d278ec46bfc",
+      "export_sha256": "85557d70dff7daafd86330c1a0eb24bca644902d6dd3222a13d31d278ec46bfc",
+      "export_bytes": 64,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/handeye_calibration/calibration.py",
+      "source_sha256": "6658833fe69a7380cb500b59c79203fd8b09138aa7e5258ae3413113d5a068f1",
+      "export_sha256": "6658833fe69a7380cb500b59c79203fd8b09138aa7e5258ae3413113d5a068f1",
+      "export_bytes": 8964,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/handeye_calibration/capture.py",
+      "source_sha256": "6e4cdf7aaf0d8d2506668c897b6e9fa29861f76d64af885cca2f0605f4caf54c",
+      "export_sha256": "6e4cdf7aaf0d8d2506668c897b6e9fa29861f76d64af885cca2f0605f4caf54c",
+      "export_bytes": 17800,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/handeye_calibration/cli.py",
+      "source_sha256": "2080a1be8ecffdebfa4f64a3377cfd6565326b2022f12ab9eb0e9326270d690c",
+      "export_sha256": "2080a1be8ecffdebfa4f64a3377cfd6565326b2022f12ab9eb0e9326270d690c",
+      "export_bytes": 5254,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/handeye_calibration/README.md",
+      "source_sha256": "aae76fb52b92d4e00f8ab8281a23fd76d22061c1f85eaa2d8af4f6b51b10de53",
+      "export_sha256": "aae76fb52b92d4e00f8ab8281a23fd76d22061c1f85eaa2d8af4f6b51b10de53",
+      "export_bytes": 591,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/handeye_calibration/session.py",
+      "source_sha256": "5d7b29f4fe745240e203cbc0a2c78799e36fa3f5e22687d83e3643ba961c3ade",
+      "export_sha256": "5d7b29f4fe745240e203cbc0a2c78799e36fa3f5e22687d83e3643ba961c3ade",
+      "export_bytes": 1993,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/tests/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_bytes": 0,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/tests/test_grasp_candidate.py",
+      "source_sha256": "095b316ff3c8f726dd589ca28ac31dbb00d75fa828317af984ba574cd0bcb6c9",
+      "export_sha256": "095b316ff3c8f726dd589ca28ac31dbb00d75fa828317af984ba574cd0bcb6c9",
+      "export_bytes": 7059,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/tests/test_pipeline.py",
+      "source_sha256": "f0e659a39b2db228be241f26e162ffd602393fd70202b88062b298c502f81c4d",
+      "export_sha256": "f0e659a39b2db228be241f26e162ffd602393fd70202b88062b298c502f81c4d",
+      "export_bytes": 16532,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/tests/test_portability.py",
+      "source_sha256": "76c69b5017c1bd19d141569404a59e4456ce5c7a51f035143d914154d70d91c7",
+      "export_sha256": "76c69b5017c1bd19d141569404a59e4456ce5c7a51f035143d914154d70d91c7",
+      "export_bytes": 856,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/codroid_msgs/CMakeLists.txt",
+      "source_sha256": "a4dcb74dfb06e8c4ec5d8d7289b19d7d3c045e5c4a6aca00d1ce58f6328cb1c8",
+      "export_sha256": "a4dcb74dfb06e8c4ec5d8d7289b19d7d3c045e5c4a6aca00d1ce58f6328cb1c8",
+      "export_bytes": 1073,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/codroid_msgs/msg/RobotInfo.msg",
+      "source_sha256": "2a93605a338cf41cfcb604ede46d14f3ab86f1c7d3d40ebfdde11dd3da0c067e",
+      "export_sha256": "2a93605a338cf41cfcb604ede46d14f3ab86f1c7d3d40ebfdde11dd3da0c067e",
+      "export_bytes": 663,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/codroid_msgs/package.xml",
+      "source_sha256": "b89a2945d42bfe85c14f5add755eca071e3ede4bfb619eef8eacd0fc0dc40869",
+      "export_sha256": "b89a2945d42bfe85c14f5add755eca071e3ede4bfb619eef8eacd0fc0dc40869",
+      "export_bytes": 848,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/config/target.json",
+      "source_sha256": "1fe385505569310f3ec88b8ec2cab8a91c6591e6d7c7c8c2660df9b1ea0d3ade",
+      "export_sha256": "1fe385505569310f3ec88b8ec2cab8a91c6591e6d7c7c8c2660df9b1ea0d3ade",
+      "export_bytes": 126,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/estun_segmented/__init__.py",
+      "source_sha256": "1d90fcb9f0c4697ffd7df93055a6825c92cd83030a1ddba6259b530fd03031ba",
+      "export_sha256": "1d90fcb9f0c4697ffd7df93055a6825c92cd83030a1ddba6259b530fd03031ba",
+      "export_bytes": 61,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/estun_segmented/bridge.py",
+      "source_sha256": "15fd0377dd0fdcbca6f17a44d62db977afefc443fedde9d0f189aba3784de33a",
+      "export_sha256": "3be2ebf0bd40a90cac88bc4e6d70753d1294aa4e781985b755607de81297d299",
+      "export_bytes": 6194,
+      "publication_modified": true
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/estun_segmented/core.py",
+      "source_sha256": "9dd5f3f8ce451bce1c727d3a7d649967c5b862fc1732e76f52f7c585207e5327",
+      "export_sha256": "9dd5f3f8ce451bce1c727d3a7d649967c5b862fc1732e76f52f7c585207e5327",
+      "export_bytes": 7791,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/estun_segmented/runner.py",
+      "source_sha256": "3ad344b4e8798a7a3672e07d8abd15d8ff7613990f5d97073c10cdf1d88f68f9",
+      "export_sha256": "3ad344b4e8798a7a3672e07d8abd15d8ff7613990f5d97073c10cdf1d88f68f9",
+      "export_bytes": 14662,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/estun_segmented/wire.py",
+      "source_sha256": "fb0e4606eb44dcdb496f95e8e2c217e0078483169be30a685593e3a563ecc450",
+      "export_sha256": "fb0e4606eb44dcdb496f95e8e2c217e0078483169be30a685593e3a563ecc450",
+      "export_bytes": 1826,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/package.xml",
+      "source_sha256": "f56dc700bcde3ee16efcf83e9c853493769f9d660d04ba1dc7c90c9e6229fb5a",
+      "export_sha256": "f56dc700bcde3ee16efcf83e9c853493769f9d660d04ba1dc7c90c9e6229fb5a",
+      "export_bytes": 538,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/resource/estun_segmented",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_bytes": 0,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/setup.cfg",
+      "source_sha256": "3a9cde9fc0b5373e909cdc1aed667e9e6e4fcce8d6c6040733d2839a59b5e01e",
+      "export_sha256": "3a9cde9fc0b5373e909cdc1aed667e9e6e4fcce8d6c6040733d2839a59b5e01e",
+      "export_bytes": 99,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/ros2_ws/src/estun_segmented/setup.py",
+      "source_sha256": "fa07000aca0258612b7a9498ef0b751f690ddd04906e8cad37241a22d34d3449",
+      "export_sha256": "fa07000aca0258612b7a9498ef0b751f690ddd04906e8cad37241a22d34d3449",
+      "export_bytes": 522,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/config/gripper.yaml",
+      "source_sha256": "91f823e51166ef69b03ec0812b147ad9a1979c05e3e160d12c101a1d6afb0b28",
+      "export_sha256": "91f823e51166ef69b03ec0812b147ad9a1979c05e3e160d12c101a1d6afb0b28",
+      "export_bytes": 453,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/launch/gripper.launch.py",
+      "source_sha256": "82b6319133a0d1421386268c8068b379525ee23dccf06e40ccb2f49dd72f167e",
+      "export_sha256": "82b6319133a0d1421386268c8068b379525ee23dccf06e40ccb2f49dd72f167e",
+      "export_bytes": 1798,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/LICENSE",
+      "source_sha256": "07c9ab2cb2f94910251acb959dfbfa902ef9114953cc128716c76b6d757aec85",
+      "export_sha256": "07c9ab2cb2f94910251acb959dfbfa902ef9114953cc128716c76b6d757aec85",
+      "export_bytes": 1082,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/ms42_gripper/__init__.py",
+      "source_sha256": "0d800f8bd94cfad68e21372bcdcfb4762221a32b4c8a7c484a8ddab1982ec203",
+      "export_sha256": "0d800f8bd94cfad68e21372bcdcfb4762221a32b4c8a7c484a8ddab1982ec203",
+      "export_bytes": 43,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/ms42_gripper/cli.py",
+      "source_sha256": "cbb38a3eb7428a3430ebb53a8c3d83c6be3b4928d01a3080d7881aa0e5b1832d",
+      "export_sha256": "cbb38a3eb7428a3430ebb53a8c3d83c6be3b4928d01a3080d7881aa0e5b1832d",
+      "export_bytes": 1025,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/ms42_gripper/client.py",
+      "source_sha256": "7c2f03b59c03e036e42b71b88351dc2c41cd7af19428f12d799862554da2d6f2",
+      "export_sha256": "7c2f03b59c03e036e42b71b88351dc2c41cd7af19428f12d799862554da2d6f2",
+      "export_bytes": 4318,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/ms42_gripper/node.py",
+      "source_sha256": "5733652cd4de12b54ae22f8908f6649a558cf1c8e0299d95fb1d764913b694a9",
+      "export_sha256": "5733652cd4de12b54ae22f8908f6649a558cf1c8e0299d95fb1d764913b694a9",
+      "export_bytes": 7795,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/ms42_gripper/protocol.py",
+      "source_sha256": "ad1dc683456b6c5cd9a0f881a5d9a602c52b404d2a85656bc4ed8f3664f316f9",
+      "export_sha256": "ad1dc683456b6c5cd9a0f881a5d9a602c52b404d2a85656bc4ed8f3664f316f9",
+      "export_bytes": 3507,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/package.xml",
+      "source_sha256": "3075d429d7763bf3d9ef05542fcefd2c671244da281b0d736abe4f335ca8a0e9",
+      "export_sha256": "3075d429d7763bf3d9ef05542fcefd2c671244da281b0d736abe4f335ca8a0e9",
+      "export_bytes": 835,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/resource/ms42_gripper",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_bytes": 0,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/setup.cfg",
+      "source_sha256": "4d88d9114df2fe688b2bff3f471d20bd9f4c64a5e7027ed07c6c1d8724267a93",
+      "export_sha256": "4d88d9114df2fe688b2bff3f471d20bd9f4c64a5e7027ed07c6c1d8724267a93",
+      "export_bytes": 123,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/setup.py",
+      "source_sha256": "49d7cb8304df7a5af03cc7cf73797ea027dd42956ccf0e9531e18bb8417cb899",
+      "export_sha256": "49d7cb8304df7a5af03cc7cf73797ea027dd42956ccf0e9531e18bb8417cb899",
+      "export_bytes": 899,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/test/test_client.py",
+      "source_sha256": "ca074af46e0f97073f5dddc5c562547750fc37e6e57df636641346b6732aab5f",
+      "export_sha256": "ca074af46e0f97073f5dddc5c562547750fc37e6e57df636641346b6732aab5f",
+      "export_bytes": 5118,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/test/test_protocol.py",
+      "source_sha256": "e0ffc998502c89b277209eec7c69382f6a22082d68f83cb5b9672b405613bf1e",
+      "export_sha256": "e0ffc998502c89b277209eec7c69382f6a22082d68f83cb5b9672b405613bf1e",
+      "export_bytes": 4365,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper/test/test_ros_services.py",
+      "source_sha256": "bc0068e3bde52f79449c4a27a97fca4a1624010208b303f3a5c70f1f80f3c8dd",
+      "export_sha256": "bc0068e3bde52f79449c4a27a97fca4a1624010208b303f3a5c70f1f80f3c8dd",
+      "export_bytes": 2929,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper_interfaces/CMakeLists.txt",
+      "source_sha256": "1392dcbb6bf0f2581e84e7e952d104d2300e9be0e365d5971f211f62c8be4a9a",
+      "export_sha256": "1392dcbb6bf0f2581e84e7e952d104d2300e9be0e365d5971f211f62c8be4a9a",
+      "export_bytes": 419,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper_interfaces/LICENSE",
+      "source_sha256": "07c9ab2cb2f94910251acb959dfbfa902ef9114953cc128716c76b6d757aec85",
+      "export_sha256": "07c9ab2cb2f94910251acb959dfbfa902ef9114953cc128716c76b6d757aec85",
+      "export_bytes": 1082,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper_interfaces/msg/GripperState.msg",
+      "source_sha256": "e116adb679897b352541eb481e0cbedba70f957ee27efec38e1b06ab4f76f4ef",
+      "export_sha256": "e116adb679897b352541eb481e0cbedba70f957ee27efec38e1b06ab4f76f4ef",
+      "export_bytes": 215,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper_interfaces/package.xml",
+      "source_sha256": "0bfdeb23e215ece3396749ef1f6c6a7045357fb1c89248a0aa2b88c7b7f3e2a6",
+      "export_sha256": "0bfdeb23e215ece3396749ef1f6c6a7045357fb1c89248a0aa2b88c7b7f3e2a6",
+      "export_bytes": 618,
+      "publication_modified": false
+    },
+    {
+      "path": "jia/ros2_ws/src/ms42_gripper_interfaces/srv/Move.srv",
+      "source_sha256": "e49bcc3729b963b78b42e3ce90523d50c1c0c4508e1e24f1c3ae3c603b62cb36",
+      "export_sha256": "e49bcc3729b963b78b42e3ce90523d50c1c0c4508e1e24f1c3ae3c603b62cb36",
+      "export_bytes": 234,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/vision_center/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_bytes": 0,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/vision_center/grasp_candidate.py",
+      "source_sha256": "e18eecc2a3807ad98470b77e8fb1cc715285b448b4f2e7cd8f7356cb81996451",
+      "export_sha256": "e18eecc2a3807ad98470b77e8fb1cc715285b448b4f2e7cd8f7356cb81996451",
+      "export_bytes": 13151,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/vision_center/candidate_pipeline.py",
+      "source_sha256": "ba24878573058b6b0b4f4e8ec366f88ce55395ee8cc0c07e76db8eeaae1c82bf",
+      "export_sha256": "ba24878573058b6b0b4f4e8ec366f88ce55395ee8cc0c07e76db8eeaae1c82bf",
+      "export_bytes": 2695,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/vision_center/candidate_cli.py",
+      "source_sha256": "b55e53cc6b04dc32efe95c7a40a6d1bb63d286b15d2205bed9f1785271a8a8b0",
+      "export_sha256": "b55e53cc6b04dc32efe95c7a40a6d1bb63d286b15d2205bed9f1785271a8a8b0",
+      "export_bytes": 6241,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/vision_center/adapters.py",
+      "source_sha256": "e185a9afdf5da97e09ea3f4f62999b7693c21457ccc830c921060a470de89705",
+      "export_sha256": "e185a9afdf5da97e09ea3f4f62999b7693c21457ccc830c921060a470de89705",
+      "export_bytes": 476,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/vision_center/README.md",
+      "source_sha256": "0eb5e166196674feb47ed1394fbd5e7a728b3bded31847761d8282a33b382ab2",
+      "export_sha256": "0eb5e166196674feb47ed1394fbd5e7a728b3bded31847761d8282a33b382ab2",
+      "export_bytes": 978,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/local/current_candidate_snapshot.py",
+      "source_sha256": "168647130f3e6ec28b5df9610f9afacd9bd40720600e800a5d415bdfc5710c20",
+      "export_sha256": "1fc4984b3dac1611f27d8a49e6f24821ccdb3befdf6238e6b7e9f6436c15d55b",
+      "export_bytes": 6515,
+      "publication_modified": true
+    },
+    {
+      "path": "camera/scripts/camera_env.sh",
+      "source_sha256": "b9e45bdb41fefd9262dc0e175edae4887cc86894bf4a07200de7055f568726c0",
+      "export_sha256": "b9e45bdb41fefd9262dc0e175edae4887cc86894bf4a07200de7055f568726c0",
+      "export_bytes": 307,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/scripts/handeye_env.sh",
+      "source_sha256": "8e34a35944c2913e1674ee95b743afb37afee1e14ff0ad406ac47f4f086efcef",
+      "export_sha256": "8e34a35944c2913e1674ee95b743afb37afee1e14ff0ad406ac47f4f086efcef",
+      "export_bytes": 398,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/scripts/run_camera.sh",
+      "source_sha256": "0efa40ba915d0e466868d7d170d49ab1b30a65c4ace9d8024f45ab2ece4207d2",
+      "export_sha256": "0efa40ba915d0e466868d7d170d49ab1b30a65c4ace9d8024f45ab2ece4207d2",
+      "export_bytes": 697,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/scripts/build_camera.sh",
+      "source_sha256": "f3ef4987879d1f68073fa5f1c2cd090f63a94911e883bb75665f9fb24f5db5e9",
+      "export_sha256": "f3ef4987879d1f68073fa5f1c2cd090f63a94911e883bb75665f9fb24f5db5e9",
+      "export_bytes": 339,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/pyproject.toml",
+      "source_sha256": "a4b23d3ff7aa0e567d02507b998ef001b191ee5a41daf6c0332bff5ff22c6bdc",
+      "export_sha256": "a4b23d3ff7aa0e567d02507b998ef001b191ee5a41daf6c0332bff5ff22c6bdc",
+      "export_bytes": 627,
+      "publication_modified": false
+    },
+    {
+      "path": "camera/README.md",
+      "source_sha256": "d7881fdd650f9ca849e8803f8fbf93bd63d1ed38b3518b720a5a9b560bce7b59",
+      "export_sha256": "956502f374919db0f450ed40544c08b38c0d2d7fa5d8bba1460b224989aa4c2c",
+      "export_bytes": 271,
+      "publication_modified": true
+    },
+    {
+      "path": "estun/windows_feedback_relay.py",
+      "source_sha256": "f1fa5e41b814f1fc9886d5611734c440ad8d18e7cf65c59d60d8c488b8970270",
+      "export_sha256": "af549c9ed8b28725f62f843b9b6577647d8b85a1c35ab303ee90c053e87b4258",
+      "export_bytes": 2002,
+      "publication_modified": true
+    },
+    {
+      "path": "estun/README.md",
+      "source_sha256": "8c5164adf96d0a4552f5d66e29990cd6517eba8b7111d075bf8d84d419a8b146",
+      "export_sha256": "86340f61dac9a67274569e076836d0f62167c9dec2f62f87e50a69fe7cd3a29c",
+      "export_bytes": 210,
+      "publication_modified": true
+    },
+    {
+      "path": "estun/build.sh",
+      "source_sha256": "a431f33b8423f73104167c12a11e796842c255bbc74e426bbcc8ddcc1640114f",
+      "export_sha256": "a431f33b8423f73104167c12a11e796842c255bbc74e426bbcc8ddcc1640114f",
+      "export_bytes": 304,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/estun_ros2_control/THIRD_PARTY.md",
+      "source_sha256": "be7dc4112dc920ec3c0a6166547530b4d527de3b2a876f84b8f93c552a287c57",
+      "export_sha256": "be7dc4112dc920ec3c0a6166547530b4d527de3b2a876f84b8f93c552a287c57",
+      "export_bytes": 738,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/tests/test_motion.py",
+      "source_sha256": "f3da52e1c7869c510eb18bc20d1c8f9333ff86edf99782991a1baa0492a68d72",
+      "export_sha256": "f3da52e1c7869c510eb18bc20d1c8f9333ff86edf99782991a1baa0492a68d72",
+      "export_bytes": 14642,
+      "publication_modified": false
+    },
+    {
+      "path": "estun/official/codroid_bridge/codroid_node/codroid_io.py",
+      "source_sha256": "b561cda5f4d44cfc5c21f027e9433ada444f7d5c2069d6cb23526629422fcbc7",
+      "export_sha256": "8b74dfb7f54fe60a5cfe6c2ef7ea2756a1d8a6a9180b27f1dec64756cb1d9c3f",
+      "export_bytes": 2336,
+      "publication_modified": true
+    },
+    {
+      "path": "jia/ros2_ws/README.md",
+      "source_sha256": "337af40f80bd363d1f55055f593c4057b33161c268bed83d47b8eae2b090efd3",
+      "export_sha256": "b8a34f789e392436841a0f340cb7f372482c37fba1c1ac58e876dcdf129fd99a",
+      "export_bytes": 15624,
+      "publication_modified": true
+    },
+    {
+      "path": "try/run_pick.py",
+      "source_sha256": "1b88c3147124bdbe4727dd5e3bedd2ca54c51de35d05e51387d37f5b55c53d49",
+      "export_sha256": "1b88c3147124bdbe4727dd5e3bedd2ca54c51de35d05e51387d37f5b55c53d49",
+      "export_bytes": 6324,
+      "publication_modified": false
+    },
+    {
+      "path": "try/run_pick.sh",
+      "source_sha256": "e54b50bd451134d97dbedb15a3bbdc4e64738f59830ec2e441b8bea2bdbac3fd",
+      "export_sha256": "e54b50bd451134d97dbedb15a3bbdc4e64738f59830ec2e441b8bea2bdbac3fd",
+      "export_bytes": 160,
+      "publication_modified": false
+    },
+    {
+      "path": "try/pick_targets.json",
+      "source_sha256": "a3de99ee47d2c8f29a5af01a5f0bc927b1f9bb3a52f89430fcbc443c415a5f4e",
+      "export_sha256": "a3de99ee47d2c8f29a5af01a5f0bc927b1f9bb3a52f89430fcbc443c415a5f4e",
+      "export_bytes": 128,
+      "publication_modified": false
+    },
+    {
+      "path": "try/tests/test_pick.py",
+      "source_sha256": "caf1cee60c3f6ad375d01dd4537d19af97f94b41111665bb3c9945307ba80576",
+      "export_sha256": "caf1cee60c3f6ad375d01dd4537d19af97f94b41111665bb3c9945307ba80576",
+      "export_bytes": 7603,
+      "publication_modified": false
+    },
+    {
+      "path": "try/README.md",
+      "source_sha256": "01c3c7fe78bad048d1e3c33f82f1640e289b9cd4b1d9e597331af69bfe15a744",
+      "export_sha256": "f7ebda74fba10ef4732716897c56af8f63fbb8b8e41730fa59b26d648f9c9ea6",
+      "export_bytes": 176,
+      "publication_modified": true
+    },
+    {
+      "path": "t/run_experiment.py",
+      "source_sha256": "146fe5202c6cc77403cd5f0674052a78f8d6028260ce5c5a186494e68f7fdb45",
+      "export_sha256": "6b8d5ae492b000aef66de08e71fb906147797d609c3aafef28ddacf5d5feb3e6",
+      "export_bytes": 5457,
+      "publication_modified": true
+    },
+    {
+      "path": "t/run_experiment.sh",
+      "source_sha256": "1b9c52f1465cdaa21d74a8c29ebbabd104c7cba75bb1c46cad04a516695ab002",
+      "export_sha256": "1b9c52f1465cdaa21d74a8c29ebbabd104c7cba75bb1c46cad04a516695ab002",
+      "export_bytes": 230,
+      "publication_modified": false
+    },
+    {
+      "path": "t/check_syntax.py",
+      "source_sha256": "74acb0cce34a2980cb48592a3d426faf5e01bcd6f775355c2ea2c72870599686",
+      "export_sha256": "74acb0cce34a2980cb48592a3d426faf5e01bcd6f775355c2ea2c72870599686",
+      "export_bytes": 141,
+      "publication_modified": false
+    },
+    {
+      "path": "t/test_angle_boundary.py",
+      "source_sha256": "1aa68eefe01b032b06a7f8e15dc0348c15fdb713f28bfaadb11800aa7fd14fe1",
+      "export_sha256": "1aa68eefe01b032b06a7f8e15dc0348c15fdb713f28bfaadb11800aa7fd14fe1",
+      "export_bytes": 1586,
+      "publication_modified": false
+    },
+    {
+      "path": "t/summarize_experiment.py",
+      "source_sha256": "afc3f7931f178e6fc1ff7b62ee64790c7191871356bd4de009f417c9ebb777c1",
+      "export_sha256": "afc3f7931f178e6fc1ff7b62ee64790c7191871356bd4de009f417c9ebb777c1",
+      "export_bytes": 1871,
+      "publication_modified": false
+    },
+    {
+      "path": "t/README.md",
+      "source_sha256": "d077c752cca76dad8dc7d02998ae9781ef280e7b810f8827283f814b984343b0",
+      "export_sha256": "7dab8208523f7c0cf0794b45fec2842503eec5fb3767e9e14546a2aedc28f65f",
+      "export_bytes": 183,
+      "publication_modified": true
+    },
+    {
+      "path": "t/实验记录.md",
+      "source_sha256": "1f6ddbcbc5cfefbd857ac978527b6522a818f545a77f21c2c920eb89ee7f6d12",
+      "export_sha256": "7186e6073b5573dabff7b7d26b33fac8c16279fbb936bdcb23c44b9f7e267644",
+      "export_bytes": 203,
+      "publication_modified": true
+    },
+    {
+      "path": "t/capture/frame_records.json",
+      "source_sha256": "b8d6f10048f839cbfc23e5655ee271bf6c81d3a70879a4ba2364aafde7c181af",
+      "export_sha256": "6e0f54efbed47d2868805505806bbdb3fe18ec3521d25c993ca7211534712889",
+      "export_bytes": 1871,
+      "publication_modified": true
+    }
+  ],
+  "copied_file_count": 88,
+  "source_files_unchanged": true,
+  "publication_changes": [
+    "Replace site endpoints with RFC5737 documentation addresses",
+    "Replace actual USB serial with REPLACE_WITH_LOCAL_SERIAL",
+    "Exclude real calibration, recordings and site logs",
+    "Use synthetic angle boundary fixture and generic documentation"
+  ],
+  "removed_local_records": [
+    "try/README_联动.md",
+    "try/实机操作指南.md",
+    "camera/docs/grasp_candidate.md",
+    "camera/docs/provenance.md",
+    "camera/docs/usage.md",
+    "camera/docs/validation_2026-10-23.md",
+    "camera/results/handeye_real_20261023/calibration.json",
+    "estun/logs/cli_test.jsonl",
+    "t/run_20261025_181148_327/control_config_hashes.json",
+    "t/run_20261025_181148_327/evidence_summary.json",
+    "t/run_20261025_181148_327/gripper.log",
+    "t/run_20261025_181148_327/gripper_state.log",
+    "t/run_20261025_181148_327/pick.log",
+    "t/run_20261025_181148_327/pick_targets.json",
+    "t/run_20261025_181148_327/result.json",
+    "t/run_20261025_181148_327/capture/robotmove_components.json",
+    "t/run_20261025_181148_327/capture/snapshot.json"
+  ]
+}

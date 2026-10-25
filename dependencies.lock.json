@@ -1,0 +1,22 @@
+{
+  "os": "Ubuntu 22.04 / WSL2",
+  "ros": "ROS2 Humble",
+  "python": "3.10.12",
+  "orbbec": {
+    "url": "https://github.com/orbbec/OrbbecSDK_ROS2.git",
+    "commit": "c153462518ad674650bafa4464fda72c27ab797a",
+    "path": "third_party/orbbec_ws/src/OrbbecSDK_ROS2",
+    "worktree_clean": true
+  },
+  "system_packages": [
+    "python3-numpy",
+    "python3-opencv",
+    "python3-yaml",
+    "python3-serial",
+    "python3-colcon-common-extensions",
+    "ros-humble-cv-bridge",
+    "ros-humble-message-filters",
+    "ros-humble-trajectory-msgs",
+    "ros-humble-std-srvs"
+  ]
+}
